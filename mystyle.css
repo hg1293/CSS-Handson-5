@@ -1,0 +1,157 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(155, 155, 11);
+}
+h1{
+    color: black;
+    position: absolute;
+    margin-left: 40%;
+}
+.row1
+{
+    display: flex;
+    justify-content: center;
+}
+.num
+{
+    margin-top: 140px;
+
+}
+.one
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(59, 59, 223);
+    margin: 20px;
+    margin-top: 70px;
+    /* position: absolute;
+    top: 30px; */
+    animation: box1 3s infinite alternate;
+}
+@keyframes box1
+{
+    0%
+    {
+        transform:skewX(-30deg)
+
+    }
+    100%
+    {
+        transform:skewX(30deg)
+    }
+}
+.two
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(158, 24, 221);
+    margin: 20px;
+    margin-top: 90px;
+    /* position: absolute;
+    top: 30px; */
+    animation: box2 3s infinite alternate;
+}
+@keyframes box2
+{
+    0%
+    {
+        transform:skewY(30deg)
+
+    }
+    100%
+    {
+        transform:skewY(-30deg)
+    }
+}
+.three
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(72, 5, 139);
+    margin: 20px;
+    margin-top: 90px;
+    /* position: absolute;
+    top: 30px; */
+    animation: box3 5s infinite normal;
+}
+@keyframes box3
+{
+    0%
+    {
+        transform:rotate(-90deg)
+
+    }
+    100%
+    {
+        transform:rotate(360deg)
+    }
+}
+.four
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 52, 107);
+    margin: 20px;
+    margin-top: 90px;
+    /* position: absolute;
+    top: 30px; */
+    animation: box4 3s infinite alternate;
+}
+@keyframes box4
+{
+    0%
+    {
+        transform:scaleY(0.5)
+
+    }
+}
+.five
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(84, 5, 26);
+    margin: 20px;
+    margin-top: 90px;
+    /* position: absolute;
+    top: 30px; */
+    animation: box5 1s infinite alternate;
+}
+@keyframes box5
+{
+    0%
+    {
+        transform:scaleX(0.5)
+
+    }
+}
+.six
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 85, 21);
+    margin: 20px;
+    margin-top: 90px;
+    /* position: absolute;
+    top: 30px; */
+    animation: box6 3s infinite alternate;
+}
+@keyframes box6
+{
+    0%
+    {
+        transform:rotate(-270deg)
+
+    }
+
+}
+.next
+{
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center ;
+}

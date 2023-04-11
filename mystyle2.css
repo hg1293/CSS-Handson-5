@@ -1,0 +1,95 @@
+.page
+{
+    background-color: rgb(200, 200, 26);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    margin-left: -55px;
+
+}
+.num1
+{
+    margin-left: -30px;
+}
+.class
+{
+    width: 100px;
+    height: 120px;
+    background-color: rgb(98, 3, 37);
+    /* direction: ltr; */
+}
+.box2
+{
+    transition: all 3s ease-in-out;
+}
+.box2:hover{
+    direction: ltr;
+    width: 400px;
+}
+.box3
+{
+    transition: all 3s linear ;
+}
+.box3:hover
+{
+    direction: ltr;
+    width: 400px;
+    height: 300px;
+}
+.box4
+{
+    transition: all 3s ease;
+}
+.box4:hover
+{
+    direction: ltr;
+    width: 400px;
+
+} 
+.box5
+{
+    transition: all 3s linear;
+}
+.box5:hover
+{
+    direction: ltr;
+    width: 400px ;
+}
+.box6
+{
+    transition: all 2s ease-in;
+}
+.box6:hover
+{
+    direction: ltr;
+    width: 400px;
+}
+.box7
+{
+    transition: all 3s ease-out;
+}
+.box7:hover
+{
+    direction: ltr;
+    width: 400px;
+}
+.box8
+{
+    transition: all 3s ease-in-out;
+}
+.box8:hover
+{
+    direction: right;
+    width: 400px;
+}
+.next
+{
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center ;
+}
